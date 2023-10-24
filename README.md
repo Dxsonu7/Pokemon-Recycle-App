@@ -10,7 +10,6 @@ Time spent: **8** hours spent in total
 
 **Pokemon Recycle** is an Android app that **displays a scrollable list of characters implementing the Pokemon API**
 
-If I had to describe this project in three (3) emojis, they would be: **:smiley: :relieved: :satisfied:**
 
 ## Application Features
 
