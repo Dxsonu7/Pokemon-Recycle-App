@@ -27,7 +27,7 @@ The following STRETCH features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/Dxsonu7/Pokemon-Recycle-App/assets/87947158/b1970297-7e0d-4dcf-8eef-a1f0e6db75d2' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/Dxsonu7/Pokemon-Recycle-App/assets/87947158/b685a225-26da-4a82-ae7a-0746bfc69475' title='Video Demo' width='' alt='Video Demo' />
 
 GIF made using with **Samsung S10**
 
