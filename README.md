@@ -1,10 +1,8 @@
 # Pokemon-Recycle-App
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# Android Project - CYOAPI: RecyclerView Edition
 
-Submitted by: **Sonu Gupta**
-
-Time spent: **8** hours spent in total
+Author: **Sonu Gupta**
 
 ## Summary
 
