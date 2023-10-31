@@ -21,14 +21,14 @@
         android:id="@+id/nameTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Name :"
         android:background="@color/purple_500"
+        android:fontFamily="cursive"
+        android:text=" Name :"
         android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"
         android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@id/pokemonImageView"
-        app:layout_constraintEnd_toStartOf="@id/nameTextView" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/nameTextView"
+        app:layout_constraintTop_toBottomOf="@id/pokemonImageView" />
 
     <TextView
         android:id="@+id/nameTextView"
@@ -46,7 +46,8 @@
         android:id="@+id/typeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Type :"
+        android:text=" Kind :"
+        android:fontFamily="cursive"
         android:background="@color/blue"
         android:textColor="@color/white"
         android:textStyle="bold"
