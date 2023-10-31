@@ -11,5 +11,8 @@
         <item name ="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">32dp</item>
     </style>
+    <style name="TextAppearance.LightMode" parent="TextAppearance.MaterialComponents.Headline1">
+        android:textColor="@color/black"
+    </style>
     <style name="Theme.MarvelApp" parent="Base.Theme.MarvelApp" />
 </resources>
