@@ -24,8 +24,8 @@
         android:background="@color/purple_500"
         android:fontFamily="cursive"
         android:textAppearance="@style/TextAppearance.Quote"
-        android:text=" Name:"
-        android:textColor="@color/white"
+        android:text=" Name :"
+        android:textColor="@color/pokemon_white"
         app:layout_constraintEnd_toStartOf="@id/nameTextView"
         app:layout_constraintTop_toBottomOf="@id/pokemonImageView" />
 
@@ -45,11 +45,11 @@
         android:id="@+id/typeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Kind :"
+        android:text=" Kind  :"
         android:textAppearance="@style/TextAppearance.Quote"
         android:fontFamily="cursive"
-        android:background="@color/blue"
-        android:textColor="@color/white"
+        android:background="@color/pokemon_blue"
+        android:textColor="@color/pokemon_white"
         app:layout_constraintTop_toBottomOf="@id/nameTitle"
         app:layout_constraintEnd_toStartOf="@id/typeTextView" />
 
