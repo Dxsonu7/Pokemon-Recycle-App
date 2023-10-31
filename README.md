@@ -1,12 +1,12 @@
 # Pokemon-World-V2
 
-# Android Project - CYOAPI: RecyclerView Edition
+# Android Project 7 - CYOAPI Part 3: Beautified
 
 Author: **Sonu Gupta**
 
 ## Summary
 
-**Pokemon Recycle** is an Android app that **displays a scrollable list of characters implementing the Pokemon API**
+**Pokemon World App** is an Android app that **displays a scrollable list of 1290 Pokemons characters with their name and type**
 
 
 ## Application Features
@@ -14,31 +14,44 @@ Author: **Sonu Gupta**
 <!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
 
 The following REQUIRED features are completed:
+- [x] App contains a RecyclerView that displays a list of scrollable data
+- [x] App displays at least two (2) pieces of data for each RecyclerView item
+- [x] Use a downloadable font with custom color and size
+- [x] Modify the theme of the app in `themes.xml`
+- [x] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
+The following STRETCH features are implemented:
+
+- [x] Update the night theme to use different versions of styles when in dark mode
+- [x] Use different drawables when in dark mode
+
+<!-- The following EXTRA features are implemented:
+
+- [ ] List anything else that you added to improve the app!
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
 - [x] Implement a RecyclerView to display a list of entries from the API
 - [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [x] Show a `Toast` or `Snackbar` when an item is clicked
+- [x] Show a `Toast` or `Snackbar` when an item is clicked  -->
 
-## Video Demo
+## Normal Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/Dxsonu7/Pokemon-Recycle-App/assets/87947158/b685a225-26da-4a82-ae7a-0746bfc69475' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/Dxsonu7/Pokemon-World-V2/assets/87947158/9d024007-9e73-4ac7-9608-443a7b115993' title='Video Demo' width='' alt='Video Demo' />
 
-GIF made using with **Samsung S10**
+# Dark/Light Mode Demo
 
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
+Here's a video / GIF that demos all of the app's implemented features:
+
+<img src='https://github.com/Dxsonu7/Pokemon-World-V2/assets/87947158/87a85afe-9147-40df-bd1e-e8700fe76e5c' title='Video Demo' width='' alt='Dark/Light Mode Demo' />
+
 
 ## Notes
 
-This project allowed me to explore android development concepts like Recycle View, Kotlin, API, XML
+This project allowed me to explore android development concepts like Styles, Themes, Recycle View, Kotlin, API, XML
 
 ## License
 
