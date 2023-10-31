@@ -1,6 +1,8 @@
 <!-- res/layout/pokemon_item.xml -->
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -8,7 +10,25 @@
     <ImageView
         android:id="@+id/pokemonImageView"
         android:layout_width="336dp"
-        android:layout_height="256dp" />
+        android:layout_height="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/nameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/pokemonImageView"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/nameTextView"
@@ -18,7 +38,10 @@
         android:hint="Name: "
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Pokemon Name" />
+        android:text="Pokemon Name"
+        app:layout_constraintStart_toEndOf="@id/nameTitle"
+        app:layout_constraintTop_toBottomOf="@id/pokemonImageView"
+        />
 
     <TextView
         android:id="@+id/typeTextView"
@@ -28,5 +51,8 @@
         android:hint="Type"
         android:textColor="@color/white"
         android:layout_marginBottom="48dp"
-        android:text="Pokemon Type" />
-</LinearLayout>
+        android:text="Pokemon Type"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

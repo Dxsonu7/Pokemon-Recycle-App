@@ -55,8 +55,8 @@ class PokeAdapter(private val pokemonList: List<Pokemon>) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentPokemon = pokemonList[position]
-        holder.nameTextView.text = "Name: ${currentPokemon.name}"
-        holder.typeTextView.text = "Type: ${currentPokemon.type}"
+        holder.nameTextView.text = "${currentPokemon.name}"
+        holder.typeTextView.text = "${currentPokemon.type}"
         Glide.with(holder.itemView.context).load(currentPokemon.imageUrl).into(holder.imageView)
     }
 
